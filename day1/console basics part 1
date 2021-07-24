@@ -11,18 +11,19 @@ console.log(true)
 // how to define array
 console.log([1,2,3,4,5])
 // how to declare object
-console.log({vrishab:'started',marks:000})
+console.log({rambo:'started',marks:000})
 //how to declare object in a table form
 console.table({name:'vrishab',year:'4' })
 //to initialise warning 
 console.warn("this is warning !!!!")
+{
 //to chk total amount of time to excute your code 
 #we put this in the beginning of our code 
 console.time('your code took')
 
 # we put this at the end of our code
 console.timeEnd('your code took')
-
+}
 //to check your code 
 console.assert(566<189,'age>189 is not possible ')
 # to initialise an error
