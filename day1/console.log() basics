@@ -1,0 +1,16 @@
+# try to follow commands as these are the most basic ones i will upload 
+# default html file too  for your follow up 
+#try to study each command 
+
+
+console.time('your code took')
+console.log('hello there !!!')
+console.log(true)
+console.log([1,2,3,4,5])
+console.log({vrishab:'started',marks:000})
+console.table({name:'vrishab',year:'4' })
+console.warn("this is warning !!!!")
+console.timeEnd('your code took')
+//to check your code 
+console.assert(566<189,'age>189 is not possible ')
+console.error('this is an error')
