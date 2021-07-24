@@ -1,10 +1,7 @@
 // try to follow commands dont try to learn all commands in 1 days just go tep by step 
 console.log('tut 3');
-{ 
-// boolean in js
-let id = true;
-console.log(id);
-} 
+
+
 // it gives error because let scope is box as declared above
 //console.log(id);
 /**  DATA TYPES IN JS
