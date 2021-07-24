@@ -1,9 +1,8 @@
 # default file will be uploaded seprately which will contain html template  
 # in this tutorial i am just following COD 
 # try to follow my my commands and they are the most basic ones .
-# try to catch serch if any code does not work
-
-
+# try to catch search if cant understand logic
+# google is your best teacher
 
 console.time('your code took')
 console.log('hello there !!!')
