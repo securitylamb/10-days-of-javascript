@@ -1,0 +1,70 @@
+   *******
+          guys these are also basics try to follow every command given below
+          i have put many comments inbetween so that you guys can understand
+          what i mean to explain by that
+
+                                   ******** 
+
+console.log('tut 2');
+// variable in js
+// var ,let ,const
+var name = 'vrishab';
+console.log(name);
+var marks = 34;
+console.log(name,marks);
+/**
+rules for variable
+* cannot start with numbers
+* can start with letter numbers or $ ,_
+eg->    var $city ='delhi';
+        console.log($city);
+* are case sensitive
+
+ **/
+/**while using var we can update the value of our variable
+var num = 10;
+var num =30;
+it will update the value of num to 30
+**/
+// const can be used when we dont want to change the value of our variable even by mistake
+const ownerName = 'securitylamb';
+// here if we try to update the code it will give us error if want to change the value even of variable as shown above in line 17 you will get TypeError.
+ console.log(ownerName);
+
+ /**
+ const fruit ;
+ it will give error you have to intiliase the variable if you create it with const 
+**/
+// let is block level scope
+var city = 'delhi';
+
+
+{
+let city ="rampur"
+
+console.log(city);
+
+//city = 'delhi';
+
+
+}
+console.log(city);
+
+/**   **array**
+while using const for array we can add elements to it despite using const we can doing by using array function 
+what we cant do is reassign the value of array
+eg->    cont arry77 =[1,2,3,4]
+        arry77 =[2,2,3,4]
+        this will give error
+        we can use array function like push as given below  
+*/
+const arry1 =[1,2,3,4,5];
+arry1.push(45);
+console.log(arry1);
+
+/**
+ ->most coomon case type
+ * camelcase
+ * kebab-case we are using - as kebab stick
+ * snale_type we are just _
+ */
