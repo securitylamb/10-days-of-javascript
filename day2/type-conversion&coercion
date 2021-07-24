@@ -82,3 +82,16 @@ console.log(number,(typeof number));
 number =parseInt('34.456')
 console.log(number,number.toFixed(0),typeof number);
 }
+
+
+
+// this is type coercion
+
+
+
+//it will convert number to string 
+let mystr='12';
+let mynum=34;
+console.log(typeof(mystr+mynum));
+console.log(mynum+mystr);
+
