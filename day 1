@@ -1,0 +1,19 @@
+# default file will be uploaded seprately which will contain html template  
+# in this tutorial i am just following COD 
+# try to follow my my commands and they are the most basic ones .
+# try to catch serch if any code does not work
+
+
+
+console.time('your code took')
+console.log('hello there !!!')
+console.log(true)
+console.log([1,2,3,4,5])
+console.log({vrishab:'started',marks:000})
+console.table({name:'vrishab',year:'4' })
+console.warn("this is warning !!!!")
+console.timeEnd('your code took')
+//to check your code 
+//if your logic work here or not 
+console.assert(566<189,'age>189 is not possible ')
+console.error('this is an error')
