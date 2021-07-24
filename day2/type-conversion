@@ -1,1 +1,84 @@
 
+console.log(' welcome to tut4')
+// type conversion and type coersion
+
+let myVar;
+myVar = 34;
+console.log(myVar,(typeof myVar));
+//convering it into striong
+myVar=String(34);
+console.log(myVar,(typeof myVar));
+ 
+//using date
+
+let date =String(new Date());
+console.log(date,(typeof date));
+
+// for array
+/** 
+let arr =[1,2,3,4,5];
+console.log(arr,(typeof arr));
+console.log(arr.length);
+**/
+// now using String function
+//arr.length -> to check length of array
+//while calculating length of string spaces are included above example has length 5  and below has length of 9
+let arr = String([1,2,3,4,5]);
+console.log(arr,(typeof arr));
+console.log(arr.length);
+
+
+// we can also use .toString();
+let i =20;
+console.log(i.toString());
+
+
+// we also have number function
+
+let stri ='hello';
+console.log(stri,(typeof stri));
+
+// now we convert the same thing to number
+stri =Number('one');
+console.log(stri,(typeof stri));
+
+stri =Number('12');
+console.log(stri,(typeof stri));
+
+stri =Number(true);
+console.log(stri,(typeof stri));
+
+
+
+
+
+
+//parseInt and parseFloat
+
+
+let number = '34';
+console.log(typeof number);
+
+
+number = parseInt('34');
+console.log(number,(typeof number));
+
+// what if we use float than it gives ans before point 34.456 -> 34 if we use Number than it will give 34.456
+
+
+//we also have parseFloat which works the same
+
+//**************************************************************************************************************** */
+// STUDY AGAIN FROM HERE
+
+// .toFixed() will 0 after the decimal
+// here number is 34.456
+// eg -> .toFixed(3)-> 13.000,.toFixed(0)-> 13
+
+
+
+// eg ->>>>>>>>>>>>>>>>>>>>
+{
+number =parseInt('34.456')
+console.log(number,number.toFixed(0),typeof number);
+}
