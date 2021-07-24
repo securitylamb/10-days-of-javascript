@@ -1,1 +1,80 @@
+// try to follow commands dont try to learn all commands in 1 days just go tep by step 
+console.log('tut 3');
+{ 
+// boolean in js
+let id = true;
+console.log(id);
+} 
+// it gives error because let scope is box as declared above
+//console.log(id);
+/**  DATA TYPES IN JS
+ *  primitive data type -> memory allocation stack
+ * basic data type
+ *  refrence data type -> memory allocation heap (dynamic memory)
+ * derived data type
+ * 
+ * primitive -> string , numbers ,boolean , null , undefined ,symbol
+ * refrence -> arrays ,objectliterals,function,dates
+ */
+//Primitive data types
 
+// string 
+ let name ='lamb';
+ console.log('my name is '+ name);
+ console.log('my data type is '+ (typeof name));
+ 
+
+// numbers
+let marks = 10;
+console.log('my marks is '+ (typeof marks));
+
+
+//boolean
+//-> either true or false
+let driver = true;
+console.log('my name is '+ (typeof driver));
+
+
+//null
+let nullVar = null;
+console.log('my name is '+ (typeof nullVar));
+//************
+// -> it returns as object bogus return value
+
+
+//undefined
+let undef = undefined;
+console.log('my name is '+ (typeof undef));
+
+// Refrence data types 
+
+//-> refrence variables have data types of object except null which also has data type of object being an primitive data type
+
+
+
+// arrays
+
+myarr=[1,2,3,4,5,6]
+console.log('my data type is ', (typeof myarr))
+
+//object literals
+
+let studentMarks ={
+    harry: 34, shubham: 56 , nupur : 88
+}
+
+console.log(studentMarks);
+
+console.log(typeof studentMarks);
+
+//functions
+function findName() 
+{
+
+
+}
+console.log(typeof findName);
+
+// date 
+let date = new Date();
+console.log(typeof date)
