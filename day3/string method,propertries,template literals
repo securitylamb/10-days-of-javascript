@@ -1,0 +1,95 @@
+
+console.log('hello this is tut 5 ');
+//dtring methods ,properties,template
+const name ='securitylamb'
+const greeting ='Good Morning'
+
+console.log(greeting+' '+name);
+
+let html;
+html = 'this is heading'
+
+// ways to concat string 
+/**
+ * 
+ *  let html;
+    html = '<h1> this is heading' +
+    'me geeting concat'
+    
+    or we can use .concat funcationmm
+ 
+    
+    
+
+   
+html= html.concat(' ','this',' ','is');
+console.log (html); 
+ */
+
+html= html.concat(' ','this',' ','is');
+console.log (html);
+
+
+// string funcation
+
+console.log(html.length);
+
+console.log(html.toLowerCase());
+
+console.log(html.toUpperCase());
+
+//index with string start 
+
+console.log(html.indexOf('this'));
+
+//we give index in this
+
+console.log(html.charAt(1));
+
+//this return boolean to chk wther string ends with it or not
+
+console.log(html.endsWith('this'));
+
+//chk wther it includes in your string
+
+console.log(html.includes('this'));
+
+// it return char 1,2 not the ending char
+
+console.log(html.substring(1,3));
+
+//->>>> substring and slice can said same but if we gice - sign in substring it will return the whole string
+
+// slice-> we can use - sign it to return character from back but we cant do that in substring
+console.log(html.slice(0,4));
+
+console.log(html.indexOf('this'));
+
+// used for splitting string into array
+
+console.log(html.split(' '));
+
+//this will replace the first occrance of that word not the secound or third times etc
+
+console.log(html.replace('this', 'it' ))
+
+// string indexing
+
+console.log(html[0]);
+
+
+// string templates literals feature of Es6
+let fruit1 ='orange';
+
+let fruit2 ='apple';
+
+
+
+let myhtml =`hello !!! ${name}
+                <h1> This is heading </h1>
+                <p> you like ${fruit1} and ${fruit2}
+
+
+            `;
+
+document.body.innerHTML = myhtml;
