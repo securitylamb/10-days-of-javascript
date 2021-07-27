@@ -1,0 +1,98 @@
+console.log('this is tut 6');
+//->>>>>  Array and object
+//indexing in array start with  ie numbering start with 0
+let marks = [10,20,30,40,50];
+
+const fruits =['apple','orange','pineapple'];
+
+const mixed = ['str' ,83 ,[3,5]];
+
+// we can also make array using object
+
+const arr = new Array(10,20,30);
+console.log(arr);
+
+//here length dont have () it means it is property
+console.log(arr.length);
+
+//.isArray-> tells you about wether is a array or not and output is bollean
+console.log(Array.isArray(arr));
+
+//here we use () it means it is  a method
+
+arr[0]='lamb';
+console.log(arr);
+// .indexOf()  method
+console.log(marks);
+//indexOf ->> this method tell us about index of the element from the array
+let value = marks.indexOf(30);
+
+
+console.log(value);
+
+
+// Mutating  OR  modifying arrays
+
+
+// it will add  element to end of the array
+marks.push(60);
+
+console.log(marks);
+
+//it add elment to the front of the array 
+marks.unshift(0);
+
+console.log(marks);
+
+
+
+
+ // to remove an element from the end
+ marks.pop()
+
+ console.log(marks);
+
+
+ //to remove element from front 
+
+ marks.shift();
+
+ console.log(marks);
+
+
+
+
+
+
+
+// .splice() reove the elemnt from first input and upto total number of element  given in 2nd input 
+marks.splice(1,2);
+
+console.log(marks);
+
+
+// it will reverse the array
+marks.reverse();
+
+console.log(marks);
+
+//concat
+let marks2 = [1,2,3,4,5];
+marks =marks.concat(marks2);
+console.log(marks);
+
+
+//object 
+
+let myobj = {
+
+                name : 'security lamb',
+
+                work : 'shit',
+
+                experience : 0
+            };
+
+            console.log(myobj);
+
+            
