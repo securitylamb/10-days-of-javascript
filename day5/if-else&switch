@@ -1,1 +1,48 @@
 
+console.log('this is tut 7');
+//IF-ELSE AND SWITCH
+
+const age ='45';
+
+if (age==19)
+
+{
+
+    console.log('Age is 19');
+}
+else if(age==65)
+{
+    
+    console.log('Age is 65');
+
+
+}
+else
+{
+    console.log('Age is not 19');
+
+
+}
+
+/**
+ * say if we input string in age 
+ * like age='twentynine';
+ * if we use if(age ==29)
+ * it will work fine because while using if with == it dont chk type it only chk value
+ * if we want to chk type also we use ===
+ * than it will chk type and value both
+ */
+/**
+  for chking (!) not equal to we only need !==    it   will for both value and type (should be not equal)   
+if(age == 29)
+{
+    console.log('age is not 29');
+}
+if(age !== 29 )
+
+{
+    console.log('here value or type is diff');
+}
+
+*/
+
