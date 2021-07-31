@@ -1,1 +1,55 @@
-//this is tutorial 8
+console.log('this is tut 8');
+//loops -> it will work until our statment is not false
+//types of loop -> for , while , do-while
+
+for(let i=0;i<11;i++)
+{
+    console.log(i);
+}
+
+
+console.log('this is while loop');
+
+
+let j = 0;
+while (j< 11)
+{
+    console.log(j);
+    j = j+1;
+}
+
+console.log('this is do while loop');
+
+// while and do while is almost same there is small diffrence ie it will definately work for the first condition
+
+let k = 0;
+do{
+    console.log(k+1);
+    if(k===5)
+    {
+        break;
+    }
+
+    k=k+1;
+}while(k<10);
+//->>>>>> this is used to iterante in array 
+let arr = [1,2,3,4,5,6];
+arr.forEach(function (element)
+{
+console.log(element);
+}
+);
+
+// ->>> for to iterate in obj 
+
+let obj = 
+{
+name : 'rohen',
+age : 18 ,
+os : 'ubuntu'
+}
+
+for( let key in obj )
+{
+    console.log(obj[key]);
+}
