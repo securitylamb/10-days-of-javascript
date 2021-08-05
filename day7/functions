@@ -1,1 +1,124 @@
 
+// function declaration
+// here mylove='thank you'; is his default value if you dont pass any value than it will give you error which will be very unprofessional so than default   value is used  in place of them automatically
+function pickUpLine(name,mylove='thanks you')
+{
+    console.log(`My favorite thing to do is cudde and watch Netfix.
+It's like cuddling and watching Netflix, but with ${name} , ${mylove}`);
+
+}
+
+
+
+console.log('this is Tut 9 ');
+
+
+/**
+->>>>>>>>>
+Here we practise obj declaration and the use of for loop to iterate in it 
+
+ 
+let study = {
+    topic : 'functions topic ' ,
+    type : 'import',
+     use: 'very imp'
+}
+
+for ( let i in study)
+{
+    console.log(study[i]);
+}
+
+*/
+/** 
+let topic = 'we will study functions';
+let type ='important';
+console.log(topic.toUpperCase(),type);
+
+*/
+/** 
+->>we use function to stop repetion 
+to make our code small and easy to read 
+*/
+let name = 'suzy';
+//console.log(`My favorite thing to do is cudde and watch Netfix.
+//It's like cuddling and watching Netflix, but with ${name}.`);
+// function calling
+//pickUpLine(name,' mylove');
+
+
+
+
+// Now saving function in a variable
+// now we dont need to use function name rather we can use variable name here
+
+
+/**
+ *  here we combine both the above topics 
+ *  first we use default paramenter in the input 
+ * function bcz we didnt pass value of mylove
+ * we also call this anonymous function
+ * 
+ * secound we didnot need to define function name 
+ * here bcz we decalre it as variable
+ * ie ->>>>>>>>>const proporsal ;
+ *  
+ */
+const proporsal = function(name,mylove='thank you')
+{
+    console.log(`My favorite thing to do is cudde and watch Netfix.
+It's like cuddling and watching Netflix, but with ${name} , ${mylove}`);
+
+}
+
+proporsal(name);
+
+
+// use function in a object 
+// follow the following example
+
+
+
+const myobj = {
+    name : 'securitylamb',
+    //we also call this anonymous function
+    // we didnot need to define function name here 
+    game: function(){
+        return 'GTA PUNJAB';
+    }
+}
+
+
+
+console.log(myobj.game());
+
+// here we are practising array method .forEach
+// in this we can get element,index,array as an output as shown below
+
+let arr = ['apple','rose','zoro'];
+
+
+arr.forEach(function(element,index,array) {
+
+    console.log(element,index);
+});
+
+
+//->>>>>>>>>>>>>>>>>>>>>>>>>>
+//              IMP TOPIC 
+//          scope in javascript 
+
+var i =  234;
+console.log(i);
+
+function ui(name)
+{      
+     var i = 9 ;
+    return `this is a ${name} ui`;
+}
+
+console.log(ui('security lamb'),i);
+
+
+
+
